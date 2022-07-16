@@ -1,0 +1,27 @@
+openapi: 3.0.0
+info: 
+  title: kenny test
+  version: 1.0.0
+components:
+  schemas:
+    ProductBody:
+      properties:
+        name:
+          type: string
+        price:
+          type: string
+      # Both properties are required
+      required:  
+        - name
+        - price
+    Product:
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        price:
+          type: string
+        createdAt:
+          type: string
+  
