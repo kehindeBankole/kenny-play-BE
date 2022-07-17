@@ -2,6 +2,10 @@ openapi: 3.0.0
 info: 
   title: kenny test
   version: 1.0.0
+servers:
+  # Added by API Auto Mocking Plugin
+  - description: KENNY mock API
+    url: https://chimoneytest.herokuapp.com/product
 components:
   schemas:
     ProductBody:
