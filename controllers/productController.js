@@ -21,7 +21,7 @@ const createProduct = async (req, res) => {
 
 
 /**
- * GET /products
+ * GET /
  * @summary Returns all products.
  * @response 200 - OK
  * @responseContent {Product} 200.application/json
